@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micromall-feign" />
+        <module name="micromall-service-goods" />
+        <module name="micromall-canal" />
+        <module name="micromall-service-user" />
+        <module name="micromall-gateway" />
+        <module name="micromall-eureka" />
+        <module name="micromall-common" />
+        <module name="micromall-service-search" />
+        <module name="micromall-oauth" />
+        <module name="micromall-task" />
+        <module name="micromall-service-order" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="micromall-canal" options="-parameters" />
+      <module name="micromall-common" options="-parameters" />
+      <module name="micromall-eureka" options="-parameters" />
+      <module name="micromall-feign" options="-parameters" />
+      <module name="micromall-gateway" options="-parameters" />
+      <module name="micromall-oauth" options="-parameters" />
+      <module name="micromall-service" options="-parameters" />
+      <module name="micromall-service-goods" options="-parameters" />
+      <module name="micromall-service-order" options="-parameters" />
+      <module name="micromall-service-search" options="-parameters" />
+      <module name="micromall-service-user" options="-parameters" />
+      <module name="micromall-task" options="-parameters" />
+    </option>
+  </component>
+</project>
